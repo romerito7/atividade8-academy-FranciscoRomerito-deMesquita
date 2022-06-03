@@ -54,9 +54,9 @@ exports.config = {
     //
     capabilities: [{
         platformName: "Android",
-        app: path.join(__dirname, "app", "app.apk"),
+        app: path.join(__dirname, "app", "apidemos.apk"),
         automationName: "UiAutomator2",
-        appPackage: "apidemos", //nome do pacote do App
+        appPackage: "io.appium.android.apis", //nome do pacote do App
         path: "/wd/hub"
     }],
     //
